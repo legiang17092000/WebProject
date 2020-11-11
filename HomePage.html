@@ -3,19 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Web Project</title>
+    <style>
+        .hrLeft{
+            width: 70vh;
+            float: left;
+            border: 2px solid black;
+        }
+        .hrRight{
+            width: 70vh;
+            float: right;
+            border: 2px solid black;
+        }
+        .titleBlogThongDiep{
+            margin: 20px;text-align: center;
+        }
+        .spanBlogThongDiep{
+            font-size: 30px;
+        }
+        button{
+            border: none;
+            color: white;
+            /* padding: 16px 32px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            /* margin: 4px 2px; */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius:20px;
+        }
+        .btnDocTiep{
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+        .btnDocTiep:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .Content{
+
+        }
+    </style>
 </head>
 <body>
     <div id="header" style="height: 10vh;background-color: blueviolet;"></div>
-    <div id="body" style="height: 70vh;background-color: coral;">
-        <div id="SlideBar"></div>
-        <div id="BlogThongDiep">
-            <hr>
+    <div id="body" style="height: 70vh;">
+        <div id="slideBar"></div>
+        <div id="blogThongDiep">
+
+            <div class="titleBlogThongDiep">
+                <hr class="hrLeft">
+                <span class="spanBlogThongDiep">Blog Thông Điệp</span> 
+                <hr class="hrRight">
+            </div>
+            <div class="contentThongDiep">
+                <div class="content">
+                    <a href="">
+                        <img src="Hinh/la-lung.png" alt="">
+                    </a> <br>
+                    <a href="">LẠ LÙNG ỐNG HÚT CỎ BÀNG: TỪ MẸ ĐẤT VỀ VỚI ĐẤT MẸ</a> <br>
+                    <button class="btnDocTiep">Đọc tiếp
+                        <a href=""></a>
+                    </button>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                
+            </div>
+            
 
         </div>
-        <div id="SanPhamBanChay"></div>
-        <div id="DanhMucSanPham"></div>
-        <div id="BaiVietHayNhat"></div>
+        <div id="sanPhamBanChay"></div>
+        <div id="danhMucSanPham"></div>
+        <div id="baiVietHayNhat"></div>
     </div>
     <div id="footer" style="height: 20vh;background-color: darkgreen;"></div>
 </body>
