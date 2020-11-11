@@ -15,10 +15,12 @@
             float: right;
             border: 2px solid black;
         }
-        .titleBlogThongDiep{
-            margin: 20px;text-align: center;
+        .blog_title{
+            margin: 20px;
+            text-align: center;
+            height: 20%;
         }
-        .spanBlogThongDiep{
+        .blog_span{
             font-size: 30px;
         }
         button{
@@ -44,39 +46,72 @@
             background-color: #4CAF50;
             color: white;
         }
-        .Content{
-
+        .blog_Content_00{
+            float: left;
+            width: 20%;
+            height: 100%;
+            margin: 10px;
         }
+        
+        #blog{
+            height: 20vh;
+        }
+        .blog_Content{
+            height: 80%;
+           display: flex;
+        }
+        .blog_Image1{
+            height: 70%;
+        }
+
     </style>
 </head>
 <body>
     <div id="header" style="height: 10vh;background-color: blueviolet;"></div>
     <div id="body" style="height: 70vh;">
         <div id="slideBar"></div>
-        <div id="blogThongDiep">
-
-            <div class="titleBlogThongDiep">
+        <div id="blog" style="background-color: chartreuse;">
+            <div class="blog_title">
                 <hr class="hrLeft">
-                <span class="spanBlogThongDiep">Blog Thông Điệp</span> 
+                <span class="blog_span">Blog Thông Điệp</span> 
                 <hr class="hrRight">
             </div>
-            <div class="contentThongDiep">
-                <div class="content">
-                    <a href="">
-                        <img src="Hinh/la-lung.png" alt="">
-                    </a> <br>
+            <div class="blog_Content">
+                <div class="blog_Content_00">
+                    <img src="Image/BlogImage1.png" alt="" id="blogImage1">
+                    <map name="BlogImage1">
+
+                    </map>
                     <a href="">LẠ LÙNG ỐNG HÚT CỎ BÀNG: TỪ MẸ ĐẤT VỀ VỚI ĐẤT MẸ</a> <br>
                     <button class="btnDocTiep">Đọc tiếp
                         <a href=""></a>
                     </button>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                
+                <div class="blog_Content_00">
+                    <a href="">
+                        <img src="Image/BlogImage2.jpg" alt="" class="blog_Image">
+                    </a> <br>
+                    <a href="">LẠ LÙNG ỐNG HÚT CỎ BÀNG: TỪ MẸ ĐẤT VỀ VỚI ĐẤT MẸ</a> <br>
+                    <button class="btnDocTiep">Đọc tiếp
+                        <a href=""></a>
+                </div>
+                <div class="blog_Content_00">
+                    <a href="">
+                        <img src="Image/BlogImage3.png" alt="" class="blog_Image">
+                    </a> <br>
+                    <a href="">LẠ LÙNG ỐNG HÚT CỎ BÀNG: TỪ MẸ ĐẤT VỀ VỚI ĐẤT MẸ</a> <br>
+                    <button class="btnDocTiep">Đọc tiếp
+                        <a href=""></a>
+                </div>
+                <div class="blog_Content_00">
+                    <a href="">
+                        <img src="Image/BlogImage4.png" alt="" class="blog_Image">
+                    </a> <br>
+                    <a href="">LẠ LÙNG ỐNG HÚT CỎ BÀNG: TỪ MẸ ĐẤT VỀ VỚI ĐẤT MẸ</a> <br>
+                    <button class="btnDocTiep">Đọc tiếp
+                        <a href=""></a>
+                </div>
             </div>
-            
-
         </div>
         <div id="sanPhamBanChay"></div>
         <div id="danhMucSanPham"></div>
