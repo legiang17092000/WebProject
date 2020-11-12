@@ -1,144 +1,348 @@
-body{
-	margin:0;
+body {
+	margin: 0;
 	font-family: sans-serif;
 	background-color: #dddddd;
 }
 
-*{
+* {
 	box-sizing: border-box;
 }
 
-.container{
+.container {
 	max-width: 100vw;
 	background-color: #ffffff;
-	height:auto;
-	margin:0px auto;
-	padding:20px;
+	height: auto;
+	margin: 0px auto;
+	padding: 20px;
 }
-h1{
-	font-size:30px;
-	margin:0;
+
+h1 {
+	font-size: 30px;
+	margin: 0;
 }
-.clear{
+
+.clear {
 	clear: both;
 }
-nav{
- float:left;
- width: 100%;
- background-color:#dddddd; 
- text-align: center;
- padding:30px 15px;
- margin-bottom:20px;
-}
 
-header{
- float:left;
- width: 100%;
- background-color:#dddddd; 
- text-align: center;
- padding:50px 10px;
- margin-bottom:20px;
-}
-
-.section1{
- float:left;
- width: 100%;
- background-color:#dddddd; 
- text-align: center;
- padding:50px 10px;
- margin-bottom:20px;
-}
-
-.section1 .content{
-	float:left;
-	width: 100%;
-	margin-top:60px;
-}
-
-.section1 .content .card{
-width:25%;
-float: left;
-padding:0px 10px;
-}
-
-.section1 .content .card .box{
-	background-color:gray;
-	/* font-size:30px; */
-	/* color:#fff; */
-	padding:0 15px 60px ;
-	background-size: 20%;
-	max-width: 100%;
-}
-.section1 .content .card .box .btnReadContinue{
-	background-color: white; 
-            color: black; 
-            border: 2px solid #4CAF50;
-            }
-.section1 .content .card .box .btnReadContinue :hover{
-	background-color: #4CAF50;
-            color: white;
-}
-.section1 .content .card .box button{
-	border: none;
-            color: white;
-            /* padding: 16px 32px; */
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            /* margin: 4px 2px; */
-            transition-duration: 0.4s;
-            cursor: pointer;
-            border-radius:20px;
-}
-
-.section2{
- float:left;
- width: 100%;
- background-color:#dddddd; 
- text-align: center;
- padding:50px 10px;
- margin-bottom:20px;
-}
-
-.section2 .content{
-float: left;
-width: 100%;
-margin-top:60px;
-}
-
-.section2 .content .left{
-	width: 50%;
+nav {
 	float: left;
-	padding:0px 10px;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 30px 15px;
+	margin-bottom: 20px;
+}
 
+header {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
 }
-.section2 .content .left .card{
-	padding:200px 15px;
-	font-size:30px;
-	color:#fff;
-	background-color: gray;
+
+.section1 {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
 }
-.section2 .content .right{
-	width: 50%;
+
+.section1 .title {
+	text-align: center;
+	font-size: large;
+}
+
+.section1 .title .hrLeft {
+	width: 70vh;
+	float: left;
+	border: 2px solid green;
+}
+
+.section1 .title .hrRight {
+	width: 70vh;
+	float: right;
+	border: 2px solid green;
+}
+
+.section1 .content {
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.section1 .content .card {
+	width: 25%;
 	float: left;
 	padding: 0px 10px;
 }
-.section2 .content .right .card{
-	padding:48px 15px;
-	font-size:30px;
-	color:#fff;
-	background-color: gray;
-	margin-bottom:20px;
+
+.section1 .content .card .box {
+	/* background-color:white; */
+	/* font-size:30px; */
+	/* color:#fff; */
+	/* padding:0 15px 60px ; */
+	background-size: 20%;
+	max-width: 100%;
 }
 
-
-footer{
- float:left;
- width: 100%;
- background-color:#dddddd; 
- text-align: center;
- padding:50px 10px;
- 
+.section1 .content .card .box .a {
+	text-decoration: none;
 }
 
+.section1 .content .card .box .btnReadContinue {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	margin: 10px;
+}
+
+.section1 .content .card .box .btnReadContinue :hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.section1 .content .card .box button {
+	border: none;
+	color: white;
+	/* padding: 16px 32px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	/* margin: 4px 2px; */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.section2 {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+}
+
+.section2 .title {
+	text-align: center;
+	font-size: large;
+}
+
+.section2 .title .hrLeft {
+	width: 70vh;
+	float: left;
+	border: 2px solid green;
+}
+
+.section2 .title .hrRight {
+	width: 70vh;
+	float: right;
+	border: 2px solid green;
+}
+
+.section2 .content {
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.section2 .content .card {
+	width: 20%;
+	float: left;
+	padding: 0px 10px;
+}
+
+.section2 .content .card .box {
+	background-size: 20%;
+	max-width: 100%;
+	position: relative;
+}
+
+.section2 .content .card .box .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(130, 185, 103, 0.7);
+}
+
+.section2 .content .card .box:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.section3 {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+}
+
+.section3 .title {
+	text-align: center;
+	font-size: large;
+}
+
+.section3 .title .hrLeft {
+	width: 70vh;
+	float: left;
+	border: 2px solid green;
+}
+
+.section3 .title .hrRight {
+	width: 70vh;
+	float: right;
+	border: 2px solid green;
+}
+
+.section3 .content {
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.section3 .content .card {
+	width: 20%;
+	float: left;
+	padding: 0px 10px;
+}
+
+.section3 .content .card .box {
+	background-size: 20%;
+	max-width: 100%;
+	position: relative;
+}
+
+.section3 .content .card .box .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(130, 185, 103, 0.7);
+}
+
+.section3 .content .card .box:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.section4 {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+}
+
+.section4 .title {
+	text-align: center;
+	font-size: large;
+}
+
+.section4 .title .hrLeft {
+	width: 70vh;
+	float: left;
+	border: 2px solid green;
+}
+
+.section4 .title .hrRight {
+	width: 70vh;
+	float: right;
+	border: 2px solid green;
+}
+
+.section4 .content {
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.section4 .content .card {
+	width: 33%;
+	float: left;
+	padding: 0px -10px;
+}
+
+.section4 .content .card .box {
+	background-size: 33%;
+	max-width: 100%;
+	position: relative;
+}
+
+.section4 .content .card .box .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(130, 185, 103, 0.7);
+}
+
+.section4 .content .card .box:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+}
